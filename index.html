@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Ayyappa - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 62);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(26, 26, 90);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: aqua;
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0;
+        }
+
+        .firstSection>div {
+            width: 39%;
+            font-size: 3rem;
+            ;
+        }
+
+        .leftSection {
+            margin: 130px 0;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 40px 0;
+
+        }
+
+        .name {
+            color: rgb(143, 72, 143);
+        }
+
+        #element {
+            color: rgb(143, 72, 143);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        hr {
+            /* border-style: dotted; */
+            border: 0;
+            background-color: rgb(149, 149, 216);
+            height: 2px;
+            margin: 50px 80px;
+        }
+
+        .text1 {
+            color: grey;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .box {
+            background-color: white;
+            width: 100%;
+            height: 1px;
+            display: flex;
+            margin: 120px 0;
+
+        }
+
+        .lines {
+            background-color: white;
+            height: 9vh;
+            width: 1.7px;
+            margin: 0 120px;
+        }
+
+        .secondSection img {
+            size: 23px;
+        }
+
+        .img-line {
+            width: 30px;
+            position: relative;
+            top: -35px;
+            left: -12px;
+        }
+
+        .work-title {
+            position: relative;
+            top: 45px;
+            width: 160px;
+        }
+
+        .work-desc {
+            position: relative;
+            top: 58px;
+            font-size: 10px;
+            width: 177px;
+            color: grey;
+        }
+        footer{
+            height: 300px;
+            background-color: #171729;
+        }
+        .foot{
+            display: flex;
+            padding: 23px 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ayyappa's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, I am <span class="name">Ayyappa Reddy</span>
+                <div>And I am a passionate</div>
+                <!-- <div>web developer</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text1">What have I done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="lines">
+                    <img class="img-line" src="web dev.png" alt="">
+                    <div class="work-title">Web Developer (2015-2018)</div>
+                    <div class="work-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit obcaecati dolorum tempore,
+                        quia nostrum ut, dolorem fugiat inventore animi, ducimus error laboriosam quod! Vero, eum!
+                    </div>
+                </div>
+                <div class="lines">
+                    <img class="img-line" src="web dev.png" alt="">
+                    <div class="work-title">Web Developer (2015-2018)</div>
+                    <div class="work-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit obcaecati dolorum tempore,
+                        quia nostrum ut, dolorem fugiat inventore animi, ducimus error laboriosam quod! Vero, eum!
+                    </div>
+                </div>
+                <div class="lines">
+                    <img class="img-line" src="web dev.png" alt="">
+                    <div class="work-title">Web Developer (2015-2018)</div>
+                    <div class="work-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit obcaecati dolorum tempore,
+                        quia nostrum ut, dolorem fugiat inventore animi, ducimus error laboriosam quod! Vero, eum!
+                    </div>
+                </div>
+                <div class="lines">
+                    <img class="img-line" src="web dev.png" alt="">
+                    <div class="work-title">Web Developer (2015-2018)</div>
+                    <div class="work-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit obcaecati dolorum tempore,
+                        quia nostrum ut, dolorem fugiat inventore animi, ducimus error laboriosam quod! Vero, eum!
+                    </div>
+                </div>
+                <div class="lines">
+                    <img class="img-line" src="web dev.png" alt="">
+                    <div class="work-title">Web Developer (2015-2018)</div>
+                    <div class="work-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit obcaecati dolorum tempore,
+                        quia nostrum ut, dolorem fugiat inventore animi, ducimus error laboriosam quod! Vero, eum!
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            <div class="foot-one">
+                Develobed by <span class="name">Ayyappa Reddy</span>
+            </div>
+            <div class="foot-two"></div>
+            <div class="foot-three"></div>
+            <div class="foot-four"></div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
